@@ -1,10 +1,10 @@
-# FLP LOG 2017: Maticové Operace
+# FLP LOG 2017: Matrix Operations
 **Author**: [xdusek21](mailto:xdusek21@stud.fit.vutbr.cz) | Daniel Dušek
 
-Aplikace na svém vstupu přijímá pomocí přesměrování soubor odpovídající struktury (k nahlédnutí ve složce `tests/`), v němž očekává zapsané matice. Nad těmito maticemi pak provede sérii operací - v odevzdané implementované verzi pouze sčítání a násobení matice A maticí B.
+Application expects redirect on standard input in specific format (as can be seen in `tests/`). This file should contain matrix definitions. Application then parses input matrixes to two list of lists using DCG rules and then executes several matrix operations on single, or both of them. 
 
-Aplikace je schopna rozpoznat zda je možné matice mezi sebou násobit a sčítat. Pokud ne, vypíše na výstup řetězec `false`.
+Implemented operations: matrix addition and matrix multiplication. Nothing more, despite the fact it was required by task specification.
 
-Pro naparsování zápisu ze standardního vstupu je využito knihovny dcg a jejího modulu basics, které jsou společně dostupné v instalacích swi-prologu.
+2/8 points received. Not surprised.
 
-Přiložený Makefile umožňuje spuštění cíle `make run-tests`, který program zkompiluje a spustí nad všemi dodanými vstupy v adresáří `tests/`.
+Makefile allows you to run target `make run-tests` which compiles source code and runs all the tests over test data in `tests/` folder. Installed SWI-Prolog implementation required.
