@@ -1,4 +1,4 @@
-# # FIT BUT, FLP - Matrix operations
+# FIT BUT, FLP - Matrix operations
 *School projects for FLP (Functional and Logic Programming) class, Faculty of Information Technology, Brno University of Technology.*
 
 **Author**: [xdusek21](mailto:xdusek21@stud.fit.vutbr.cz) | Daniel Dušek
