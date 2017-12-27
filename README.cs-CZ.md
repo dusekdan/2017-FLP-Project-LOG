@@ -1,4 +1,6 @@
-# FLP LOG 2017: Maticové Operace
+# FIT VUT, FLP - Operace s maticemi
+*Školní projekty do předmětu FLP (Funkcionální a Logické Programování), Fakulta Informačních Technologií, Vysoké Učení Technické Brno.*
+
 **Author**: [xdusek21](mailto:xdusek21@stud.fit.vutbr.cz) | Daniel Dušek
 
 Aplikace na svém vstupu přijímá pomocí přesměrování soubor odpovídající struktury (k nahlédnutí ve složce `tests/`), v němž očekává zapsané matice. Nad těmito maticemi pak provede sérii operací - v odevzdané implementované verzi pouze sčítání a násobení matice A maticí B.
